@@ -1,12 +1,13 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require 'sendgrid-ruby'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module SampleMiliaApp
+module ReachScoutApp
   class Application < Rails::Application
           #  For faster asset precompiles, you can partially load your application. 
       #  In that case, templates cannot see application objects or methods. 

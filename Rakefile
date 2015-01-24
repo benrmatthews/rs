@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-SampleMiliaApp::Application.load_tasks
+ReachScout::Application.load_tasks

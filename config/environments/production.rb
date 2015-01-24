@@ -1,4 +1,4 @@
-SampleMiliaApp::Application.configure do
+ReachScout::Application.configure do
    
   # devise says to define default url
   config.action_mailer.default_url_options = { :host => 'reach-scout.herokuapp.com' }

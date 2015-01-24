@@ -1,4 +1,4 @@
-SampleMiliaApp::Application.routes.draw do
+ReachScout::Application.routes.draw do
   get "home/welcome", :as => :welcome
   resources :members
 

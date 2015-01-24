@@ -7,7 +7,7 @@ require 'sendgrid-ruby'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module ReachScoutApp
+module ReachScout
   class Application < Rails::Application
           #  For faster asset precompiles, you can partially load your application. 
       #  In that case, templates cannot see application objects or methods. 

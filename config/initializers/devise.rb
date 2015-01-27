@@ -4,13 +4,13 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  config.secret_key = 'f00fed102481f6254b14649a16f22068c143ed886488bf1ec2522c853019e6d525982ed0228f45e3a54425cee1da83fadc50195a0e33482486fd9d8ef1754c74'
+  config.secret_key = 'fc1871dac5f8ed18b8b71bba029ac452cefd8b4bad6bf6288d824d118729d3b54fc3f8b63597d1ead70a0c7b5911464b3864b5d6ba2f455983ae016db7883b4d'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'no-reply@reach-scout.herokuapp.com'
+  config.mailer_sender = 'ben@montfort.io'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -95,7 +95,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  #config.pepper = '4d28eee92b8fd202032f2301054fbe74a67b23e4f2efce560e1d858f68344d30f81a0a8701aff54c44d83e376a06a8afa8561cf535b6144d2c006c63424a3098'
+  # config.pepper = 'c7ac7f2d50c89a7d5c52d417efe53c92bae7a0810d22628e0489b46a80ebebcf41906fa28332d29aaf5f4b3e2a72002e047fa0dafb84ce3d5ffae41d0947a774'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -120,7 +120,7 @@ Devise.setup do |config|
   config.reconfirmable = true
 
   # Defines which key will be used when confirming an account
-  config.confirmation_keys = [ :email ]
+  # config.confirmation_keys = [ :email ]
 
   # ==> Configuration for :rememberable
   # The time the user will be remembered without asking for credentials again.
@@ -140,7 +140,7 @@ Devise.setup do |config|
   # Email regex used to validate email formats. It simply asserts that
   # one (and only one) @ exists in the given string. This is mainly
   # to give user feedback and not to assert the e-mail validity.
-  config.email_regexp = /\A[^@]+@[^@]+\z/
+  # config.email_regexp = /\A[^@]+@[^@]+\z/
 
   # ==> Configuration for :timeoutable
   # The time you want to timeout the user session without activity. After this

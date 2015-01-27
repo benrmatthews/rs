@@ -9,6 +9,15 @@ Bundler.require(:default, Rails.env)
 
 module ReachScout
   class Application < Rails::Application
+     
+    # uncomment to ensure a common layout for devise forms
+    #   config.to_prepare do   # Devise
+    #     Devise::SessionsController.layout "sign"
+    #     Devise::RegistrationsController.layout "sign"
+    #     Devise::ConfirmationsController.layout "sign"
+    #     Devise::PasswordsController.layout "sign"
+    #   end   # Devise
+
           #  For faster asset precompiles, you can partially load your application. 
       #  In that case, templates cannot see application objects or methods. 
       #  Heroku requires this to be false.

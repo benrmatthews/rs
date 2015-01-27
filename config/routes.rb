@@ -4,7 +4,6 @@ ReachScout::Application.routes.draw do
 
   get "home/index"
    root :to => "home#index"
-
     
   # *MUST* come *BEFORE* devise's definitions (below)
   as :user do   

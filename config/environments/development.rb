@@ -13,10 +13,12 @@ ReachScout::Application.configure do
     :address => "smtp.gmail.com",
     :port => "587",
     :authentication => :plain,
-    :user_name => "conjugalis@gmail.com",
+    :user_name => "ben@montfort.io",
     :password => ENV["SMTP_ENTRY"],
     :enable_starttls_auto => true
   }
+
+
 
   # Settings specified here will take precedence over those in config/application.rb.
 

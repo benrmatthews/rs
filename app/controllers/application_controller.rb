@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   # optional callback for post-authenticate_tenant! processing
   def callback_authenticate_tenant
     @org_name = ( Tenant.current_tenant.nil?  ?
-      "Simple Milia App"   :
+      "Reach Scout"   :
       Tenant.current_tenant.name 
     )
     # set_environment or whatever else you need for each valid session
@@ -24,7 +24,7 @@ class ApplicationController < ActionController::Base
   #   org_name will be passed to layout & view
   #   this sets the default name for all situations
   def prep_org_name()
-    @org_name ||= "Simple Milia App"
+    @org_name ||= "Reach Scout"
   end
 
 end

@@ -2,7 +2,8 @@ ReachScout::Application.configure do
    
   # devise says to define default url
   config.action_mailer.default_url_options = { :host => 'reach-scout.herokuapp.com' }
-
+  config.action_mailer.perform_deliveries = true
+  
   ActionMailer::Base.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {

@@ -1,19 +1,17 @@
 ReachScout::Application.configure do
    
   # devise says to define default url
-  config.action_mailer.default_url_options = { :host => 'reach-scout.herokuapp.com' }
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
-  
+  config.action_mailer.default_url_options = { :host => 'reachscout.herokuapp.com' }
+
   ActionMailer::Base.delivery_method = :smtp
 
-  config.action_mailer.smtp_settings = {
+  ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
     :authentication => :plain,
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => 'heroku.com',
+    :domain         => 'heroku.com'
   }
 
   # Settings specified here will take precedence over those in config/application.rb.

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.0.0"   # heroku likes this at the head, as line 2
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.3'
+gem 'rails', '4.2'
 
 # Use sqlite3 as the dev/test database for Active Record
 gem 'sqlite3', :group => [:development, :test]
@@ -62,9 +62,9 @@ end
   gem "rack-timeout"
   gem 'rails_12factor'
 
-  gem 'web-app-theme', :git => 'git://github.com/dsaronin/web-app-theme.git'
-  gem 'devise', '~>3.2'
-  gem 'milia', '~>1.0'
+ # gem 'web-app-theme', :git => 'git://github.com/dsaronin/web-app-theme.git'
+  gem 'devise', '~>3.4'
+  gem 'milia', '~>1.2.0'
 
   # airbrake is optional and configured by config.use_airbrake in milia initializer
   # default is false; if you change it to true, uncomment out the line below

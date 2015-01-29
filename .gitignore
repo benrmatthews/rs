@@ -21,3 +21,6 @@ pickle-email-*.html
 *~
 
 .keep
+
+# Ignore application configuration
+/config/application.yml

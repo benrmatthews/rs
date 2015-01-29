@@ -175,7 +175,7 @@ GEM
       smtpapi
     sexp_processor (4.4.1)
     smtpapi (0.0.10)
-    sprockets (2.12.3)
+    sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -226,6 +226,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0)
   sdoc
   sendgrid-ruby
+  sprockets (= 2.11.0)
   sqlite3
   therubyracer
   thin

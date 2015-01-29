@@ -57,6 +57,7 @@ end
   gem 'html2haml', :git => 'git://github.com/haml/html2haml.git'  # "2.0.0.beta.2", 
 
   # stuff that heroku likes to have
+  gem 'thin'  
   gem "SystemTimer", :require => "system_timer", :platforms => :ruby_18
   gem "rack-timeout"
   gem 'rails_12factor'
@@ -73,9 +74,6 @@ end
   # default is true; if you change it to false, comment out the line below
   # gem 'recaptcha', :require => "recaptcha/rails"
 
-
-gem "recaptcha", require: "recaptcha/rails"
-gem "activerecord-session_store", github: "rails/activerecord-session_store"
 gem 'bootstrap-sass'
 gem 'sendgrid-ruby'
 gem "figaro", "~> 0.7.0"

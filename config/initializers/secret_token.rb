@@ -9,5 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-ReachScout::Application.config.secret_token    = '033d2bafa6257d0a9092c90301169f9ae73d8a4cb67870967070e7caaf37a3a44182ae8cffde2a2f99d2f55e266ff66d90e8f2c6553ae778a96ff82afe713cde'
-ReachScout::Application.config.secret_key_base = '033d2bafa6257d0a9092c90301169f9ae73d8a4cb67870967070e7caaf37a3a44182ae8cffde2a2f99d2f55e266ff66d90e8f2c6553ae778a96ff82afe713cde'
+ReachScout::Application.config.secret_token    = 'c066f0aaa1d5b2b677c37f78a39611e6647197087e8da6d6742ea72ebe69df0b7cc830f6d53a54a4ee6fba535fff9bdb8f3e778a59d3c6033ec068526ef8e3b4'

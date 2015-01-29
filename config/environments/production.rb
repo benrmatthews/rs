@@ -14,7 +14,6 @@ ReachScout::Application.configure do
     :user_name      => ENV['GMAIL_USERNAME'],
     :password       => ENV['GMAIL_PASSWORD'],
     :domain         => 'heroku.com',
-    :enable_starttls_auto => true
   }
 
   # Settings specified here will take precedence over those in config/application.rb.

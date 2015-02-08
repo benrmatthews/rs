@@ -79,3 +79,4 @@ gem 'sendgrid-ruby'
 gem "figaro", "~> 0.7.0"
 gem 'sprockets', '2.11.0'
 gem 'heroku'
+gem "iconv", "~> 1.0.3"

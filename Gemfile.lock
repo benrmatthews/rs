@@ -94,6 +94,7 @@ GEM
       rest-client (~> 1.2)
     hike (1.2.3)
     i18n (0.7.0)
+    iconv (1.0.4)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -221,6 +222,7 @@ DEPENDENCIES
   haml-rails
   heroku
   html2haml!
+  iconv (~> 1.0.3)
   jbuilder (~> 1.2)
   jquery-rails
   milia

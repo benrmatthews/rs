@@ -57,6 +57,7 @@ end
   gem 'html2haml', :git => 'git://github.com/haml/html2haml.git'  # "2.0.0.beta.2", 
 
   # stuff that heroku likes to have 
+  gem 'thin'
   gem "SystemTimer", :require => "system_timer", :platforms => :ruby_18
   gem "rack-timeout"
   gem 'rails_12factor'
@@ -77,3 +78,4 @@ gem 'bootstrap-sass'
 gem 'sendgrid-ruby'
 gem "figaro", "~> 0.7.0"
 gem 'sprockets', '2.11.0'
+gem 'heroku'

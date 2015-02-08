@@ -1,9 +1,11 @@
 <%# add navigation links to this file %>
 <% if user_signed_in? %>
+  <div class="nav navbar-nav navbar-left">
   <li><%= link_to 'Clients', '#' %></li>
   <li><%= link_to 'Campaigns', '#' %></li>
   <li><%= link_to 'Contacts', '#' %></li>
   <li><%= link_to 'Coverage', '#' %></li>
+  </div>
   <li><%= link_to 'Invite Member', new_member_path %></li>
   <li><%= link_to 'Edit account', edit_user_registration_path %></li>
   <li><%= link_to 'Sign out', destroy_user_session_path, :method=>'delete' %></li>

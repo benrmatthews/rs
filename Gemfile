@@ -56,8 +56,7 @@ end
   gem 'haml-rails'   
   gem 'html2haml', :git => 'git://github.com/haml/html2haml.git'  # "2.0.0.beta.2", 
 
-  # stuff that heroku likes to have
-  gem 'thin'  
+  # stuff that heroku likes to have 
   gem "SystemTimer", :require => "system_timer", :platforms => :ruby_18
   gem "rack-timeout"
   gem 'rails_12factor'
